@@ -1,0 +1,188 @@
+/*css của web*/
+
+a{text-decoration: none}
+
+.text-red{color:red;}
+
+.web-warper{
+	background-color: white;
+}
+
+.navbar-header{
+	background-color: #FF0040;
+	padding:20px;
+}
+
+
+
+.main-menu{
+	background-color: black;
+	color: #fff;
+	
+}
+
+.main-menubaomat{
+	background-color: white;
+	color: #fff;
+}
+
+
+
+.main-menu.navbar{
+	padding: 0
+}
+.main-menu .navbar-nav .nav-link:hover{
+	/*background-color: #FF0040;*/
+	transition: box-shadow .4s, color .3s;
+	box-shadow: 0 3px #FF0040;
+}
+
+.main-menu .navbar-nav .nav-link{
+	color: white !important;
+	font-weight: 600;
+	
+	
+}
+
+.list-warper{
+	background-color: #fff;
+	margin-bottom: 1rem;
+}
+
+.list-warper .list-title{
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.75rem;
+	border-bottom: 1px solid #eee
+}
+
+.product-list a{
+	text-decoration: none;
+}
+
+.product-list .p-title{
+	color: #000;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: .5rem
+}
+
+.product-list .item:hover .p-title, .product-list .list-item:hover .p-title{
+	color: #288ad6;
+}
+
+.p-price{
+	color: #f70c0c;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 0
+}
+
+.p-price del{color: #000;}
+
+.product-list .list-item{
+	background-color: #fff
+}
+
+
+/*DETAIL*/
+.product-detail .title h1{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.product-detail .p-price{
+	font-size: 20px;
+	color: #f70c0c;
+}
+/*END DETAIL*/
+
+/*comment*/
+.Product_com{
+	font-size: 20px;
+}
+
+
+.Product_com .finaltotal{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 358px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background: linear-gradient(180deg,#f79429,#f7712e);
+}
+
+/*END comment*/
+
+
+/*CART*/
+.cart{
+	font-size: 20px;
+}
+.cart .p-price{
+	font-size: 20px;
+	color: #f70c0c;
+}
+
+.cart .finaltotal{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 358px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background: linear-gradient(180deg,#f79429,#f7712e);
+}
+
+/*END CART*/
+
+
+/*CONTACT*/
+.contact{
+	font-size: 20px;
+}
+
+
+.contact .finaltotal{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 358px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background: linear-gradient(180deg,#f79429,#f7712e);
+}
+
+/*END CONTACT*/
+
+/*FOOTER*/
+.site-footer{
+	
+	background-color:black
+}
+.site-footer ul.site-feature{
+	font-size: 14px;
+	
+}
+
+.site-footer ul.site-feature img{
+	width: 35px;
+    height: 34px;
+}
+
+.site-footer .site-footer__upper{
+	background-color: #f1faf3
+}
+
+.site-footer__bottom{
+	background-color: #e0dbdb;
+}
+/*END FOOTER*/
+
+
+
